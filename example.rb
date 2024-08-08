@@ -19,7 +19,7 @@ class Calculator
                   result = ""
                   begin
                     result = eval(line).to_s
-                  rescue SyntaxError
+                  rescue Exception
                   end
                   result
                 end.join("\n")
