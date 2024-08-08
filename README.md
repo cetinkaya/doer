@@ -1,6 +1,6 @@
 # doer
 
-doer is a ruby class that completes tasks that you want to schedule and possibly update even while an existing task is being executed. It is useful for handling tasks in gui applications with user input. 
+doer provides a ruby class `Doer` that completes tasks that you want to schedule and possibly update even while an existing task is being executed. It is useful for handling tasks in gui applications with user input. 
 
 ## Use
 
