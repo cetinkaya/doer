@@ -9,7 +9,7 @@ Here is a code that explains what doer does.
 ~~~ruby
 require "doer"
 
-doer = Doer.new(1, 0.1)
+doer = Doer::Doer.new(1, 0.1)
 doer.task do
   # Do something that takes long
   sleep 10
@@ -44,7 +44,7 @@ On the other hand,
 ~~~ruby
 require "doer"
 
-doer = Doer.new(1, 0.1)
+doer = Doer::Doer.new(1, 0.1)
 doer.task do
   # Do something that takes long
   sleep 10
