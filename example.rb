@@ -1,13 +1,13 @@
 # Ahmet Cetinkaya, 2024
 
 require "glimmer-dsl-libui"
-require_relative 'doer'
+require 'doer'
 
 class Calculator
   include Glimmer
   attr_accessor :left_text, :right_text
   def initialize
-    @doer = Doer.new(1, 0.1)
+    @doer = Doer::Doer.new(1, 0.1)
     window {
       horizontal_box {
         multiline_entry {
